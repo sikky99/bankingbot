@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-english_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
+english_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.MongoDatabaseAdapter")
 
 
 
